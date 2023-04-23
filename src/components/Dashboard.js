@@ -1,11 +1,18 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Dashboard(){
-  return (
-    <div className="settings">
-      <h1> Dashboard </h1>
-    </div>
-  );
+    return (
+        <div className="dashboard">
+            <h1> Dashboard </h1>
+            <Link to="/"> Dashboard </Link>
+            <Link to="/Settings"> Setting </Link>
+            <Link to="/Sidebar"> Sidebar </Link>
+            <Link to="/Visuallizations"> Visuallizations </Link>
+        </div>
+    );
 }
 
 export default Dashboard;
+
+
