@@ -1,11 +1,11 @@
 import React from "react";
 
 function Settings(){
-  return (
-    <div className="settings">
-      <h1> Settings </h1>
-    </div>
-  );
+    return (
+        <div className="settings">
+            <p> There is Settings </p>
+        </div>
+    );
 }
 
 export default Settings;
