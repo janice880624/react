@@ -9,18 +9,16 @@ function App() {
   return (
     <div>
       <Router>
+        <Sidebar />
+        <hr />
         <Switch>
-          <Route path="/" component={Dashboard}></Route>
-          <Route path="/Settings" component={Settings}></Route>
-          <Route path="/Sidebars" component={Sidebar}></Route>
-          <Route path="/Visuallizations" component={Visuallizations}></Route>
+          <Route exact path="/"><Dashboard/></Route>
+          <Route path="/Settings"><Settings/></Route>
+          <Route path="/Visuallizations"><Visuallizations/></Route>
         </Switch>
       </Router>
     </div>
-
-    
   );
 }
 
 export default App;
-
