@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .App-logo {
@@ -35,4 +37,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* sidebar */
+.Sidebar{
+  margin-left: 20px;
+  width: 200px;
+  border-right: solid 1px rgba(0, 0, 0, 0.2);
 }
